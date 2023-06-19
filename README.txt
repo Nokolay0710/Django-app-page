@@ -52,10 +52,6 @@
     <body>
     <main>
         <h2>Hello index page!</h2>
-        {% block sidebar %}
-        {% endblock %}
-        {% block content %}
-        {% endblock %}
     </main>
     </body>
     </html>
