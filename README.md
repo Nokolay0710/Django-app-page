@@ -68,12 +68,9 @@
     </html>
     ```
 
-14. ```python
-    py manage.py migrate
-    ```
-16. ```python
+13. ```python
     py manage.py runserver
     ```
-18. Starting development server at http://127.0.0.1:8000/
+14. Starting development server at http://127.0.0.1:8000/
 
-19. Hello index page!
+15. Hello index page!
