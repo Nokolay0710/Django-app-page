@@ -72,7 +72,7 @@
     ```
 16. ```python
     py manage.py runserver
-    ```python
+    ```
 18. Starting development server at http://127.0.0.1:8000/
 
 19. Hello index page!
