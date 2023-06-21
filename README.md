@@ -28,7 +28,7 @@
     ]
     ```
 
-7. create urls.py to dir newapp
+7. create file urls.py to dir newapp
    ```python
     from . import views
     from django.urls import re_path
