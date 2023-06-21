@@ -13,7 +13,7 @@
         'django.contrib.staticfiles',
 
         # Apps
-        'newapp',
+        'newapp', # new
     ]
     ```
 
@@ -47,9 +47,10 @@
 
 11. create dir templates to dir newapp
 
-12. create index.html to dir templates
+12. create file index.html to dir templates
     ```html
     <!-- templates/index.html -->
+    {% include static %}
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -66,7 +67,7 @@
     </html>
     ```
 
-14. py manage.py migrate
+14. ```python py manage.py migrate ```
 
 15. py manage.py runserver
 
