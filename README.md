@@ -20,11 +20,11 @@
 
 5. config -> urls.py ->
    ```python
-    from django.urls import include
+    from django.urls import include # new
 
     urlpatterns = [
         path('admin/', admin.site.urls),
-        path('', include('newapp.urls')),
+        path('', include('newapp.urls')), # new
     ]
     ```
 
