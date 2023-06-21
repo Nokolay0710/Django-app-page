@@ -1,8 +1,9 @@
 1. https://github.com/Nokolay0710/Django-quick-start
 
-2. py manage.py startapp newapp
-
-3. config -> settings.py ->
+2. ```python
+   py manage.py startapp newapp
+   ```
+4. config -> settings.py ->
    ```python
     INSTALLED_APPS = [
         'django.contrib.admin',
