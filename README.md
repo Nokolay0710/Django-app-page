@@ -1,4 +1,4 @@
-1. https://github.com/Nokolay0710/Django-quick-start
+1. [Django quick start](https://github.com/Nokolay0710/Django-quick-start)
 
 2. ```python
    py manage.py startapp newapp
