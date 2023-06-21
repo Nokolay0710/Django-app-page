@@ -2,7 +2,8 @@
 
 2. py manage.py startapp newapp
 
-3. config -> settings.py -> 
+3. config -> settings.py ->
+   ```python
     INSTALLED_APPS = [
         'django.contrib.admin',
         'django.contrib.auth',
@@ -14,32 +15,40 @@
         # Apps
         'newapp',
     ]
+    ```
 
-4. config -> urls.py ->
+5. config -> urls.py ->
+   ```python
     from django.urls import include
 
     urlpatterns = [
         path('admin/', admin.site.urls),
         path('', include('newapp.urls')),
     ]
+    ```
 
-5. create urls.py to dir newapp
+7. create urls.py to dir newapp
+   ```python
     from . import views
     from django.urls import re_path
 
     urlpatterns = [
         re_path(r'^$', views.index, name='index'),
     ]
+    ```
 
-6. newapp -> views.py ->
+9. newapp -> views.py ->
+    ```python
     from django.shortcuts import render
 
     def index(request):
         return render(request, 'index.html')
+    ```
 
-7. create dir templates to dir newapp
+11. create dir templates to dir newapp
 
-8. create index.html to dir templates
+12. create index.html to dir templates
+    ```html
     <!-- templates/index.html -->
     <!DOCTYPE html>
     <html lang="en">
@@ -55,11 +64,12 @@
     </main>
     </body>
     </html>
+    ```
 
-9. py manage.py migrate
+14. py manage.py migrate
 
-10. py manage.py runserver
+15. py manage.py runserver
 
-11. Starting development server at http://127.0.0.1:8000/
+16. Starting development server at http://127.0.0.1:8000/
 
-12. Hello index page!
+17. Hello index page!
