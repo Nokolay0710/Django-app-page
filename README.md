@@ -70,8 +70,9 @@
 14. ```python
     py manage.py migrate
     ```
-16. py manage.py runserver
+16. ```python
+    py manage.py runserver
+    ```python
+18. Starting development server at http://127.0.0.1:8000/
 
-17. Starting development server at http://127.0.0.1:8000/
-
-18. Hello index page!
+19. Hello index page!
